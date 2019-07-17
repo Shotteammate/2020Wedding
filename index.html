@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type='text/css' href="styles.css">
+    <title>Wedding</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav >
+                <ul class="navbarContainer">
+                    <li><a href="index.html"><img class="logo" data-lazy="https://firebasestorage.googleapis.com/v0/b/wedding-page-247006.appspot.com/o/images%2Fwedding-logo.PNG?alt=media&token=2cd0654e-0025-4a16-8c2c-166a3bc17afe" alt="the wedding logo"></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                          <a>album 
+                            <i class="fa fa-caret-down"></i>
+                          </a>
+                          <div class="dropdown-content">
+                            <a href="wedding-dress.html">wedding dress</a>
+                            <a href="kimono.html">kimono</a>
+                            <a href="evening-dress.html">evening dress</a>
+                          </div>
+                        </div> 
+                    </li>
+                    <li><a href="#locationSection" >Location</a></li>
+                    <li><a href="#contactID" >Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="sectionContainer" id="section">
+            <figure>
+                <img data-lazy="https://firebasestorage.googleapis.com/v0/b/wedding-page-247006.appspot.com/o/images%2Fwedding-dress-min.jpg?alt=media&token=3039db35-c50f-485d-af27-e5542958077e" alt="wedding-dress">
+                <figcaption>
+                    wedding dress
+                </figcaption>
+            </figure>
+            <figure>
+                <img data-lazy="https://firebasestorage.googleapis.com/v0/b/wedding-page-247006.appspot.com/o/images%2Fkimono-min.jpg?alt=media&token=6e21d78e-cbf2-439b-8188-85beb4d99e02" alt="kimono">
+                <figcaption>
+                    kimono
+                </figcaption>
+            </figure>
+            <figure>
+                <img data-lazy="https://firebasestorage.googleapis.com/v0/b/wedding-page-247006.appspot.com/o/images%2Fevening-dress-min.jpg?alt=media&token=f6593ba5-9df1-410e-80a7-23ae6d1e8bbf" alt="evening-dress">
+                <figcaption>
+                    evening dress
+                </figcaption>
+            </figure>
+        </section>
+        <section class="location" id="locationSection">
+            
+            <div class="locationInfo">
+                <div class="loctionHead"><u>Location Details</u></div>
+                <div>Chapel Address: 361 Shiohirakawabaru, Aza-Yamanoha, Nago-shi</div>
+                <div>Suggested Hotel: Hotel Resonex Nago Okinawa</div>
+                <div>Recommend to stay on: 18-1-2020 and 19-1-2020</div>
+            
+                <div id="map"></div>
+                <div class="remark">**Remark: the map is still work even that's not free anymore</div>
+                <div>Dinner will be served in "Ufuya百年大家"  Time to be confirmed</div>
+                <div>Dinner Address: Nakayama 90 Nago City, Okinawa Prefecture</div>
+        </div>
+        </section>
+        <footer id="contactID">
+            <div> Details: Sunday, 19th January 2020, 12:30p.m., Chapel of Five Senses, Okinawa</div>
+            <div>Contact: Dickson 6441-6669 & Sophia 6130-8684</div>
+            <div>Feel free to contact us!</div>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkr9U6G56RR_RTaVtqgTR926jBNgQn5SM&callback=initMap"
+  type="text/javascript"></script>
+
+</body>
+</html>
